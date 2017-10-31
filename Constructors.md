@@ -165,3 +165,11 @@ statement at the beginning of child class constructor.
 1. The purpose of constructor is to initialize the object of a class while the purpose of a method is to perform a task by executing java code.
 2. Constructors cannot be abstract, final, static and synchronised while methods can be.
 3. Constructors do not have return types while methods do.
+
+## Java – Constructor in Interface?
+
+This is a most frequently asked java interview question. The answer is No, interface cannot have constructors. In this post we will discuss why constructors are not allowed in interface?
+
+All the methods of interface doesn’t have body so there is no need to call the methods in the interface itself. In order to call any method we need an object since there is no need to have object of interface, there is no need of having constructor in interface (Constructor is being called during creation of object).
+
+Reference: https://beginnersbook.com/2013/03/constructors-in-java/
